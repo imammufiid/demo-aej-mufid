@@ -14,7 +14,7 @@ jobs:
           distribution: 'temurin'
           java-version: '1.8'
       - uses: akhileshns/heroku-deploy@v3.12.12
-          with:
-            heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-            heroku_app_name: "Demo Spring"
-            heroku_email: "YOUR EMAIL"
+        with:
+          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+          heroku_app_name: "Demo Spring"
+          heroku_email: "imammufid98@gmail.com"
